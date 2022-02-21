@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Bobba - Bobba.com.br</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Uma forma de se divertir incrível, chame seus amigos e comece a diversão!" />
+    <meta name="keywords" content="habbo, hotel, habbo hotel, moedas, grátis, moedas gratis, moedas grátis, rico, ficar rico habbo, raros, ganhar raros, ganhar moedas, ganhar, fã site, fã-site, fã, site, jogos, diversão, novidades, atualizado, habbo atualizado, mobis novos, mobis, câmbios, cambios"
+    />
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./assets/script/bobba.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <?php User::Login(); ?>
+
+    <script>
+        $(document).ready(function() {
+
+        });
+    </script>
+</head>
+
+<body>
+    <!-- TOPO -->
+    <div class="error" style="display: block;">Esse usuário não existe</div>
+    <header id="topo">
+        <figure id="nuvens"></figure>
+        <figure id="hotel-topo"></figure>
+        <figure id="logo" onclick="location.href='index.html'"></figure>
+    </header>
+    <!-- FINAL TOPO -->
+
+    <!-- MENU -->
+    <nav id="barra">
+        <section id="conteudo-barra">
+            <div id="frank-cabeca"></div>
+            <div id="balao-online">
+                <p>Estamos com
+                    <?= Game::usersOnline() ?> bobbas online!
+                        <p>
+            </div>
+            <form id="login-index" action="" method="POST">
+                <input id="i-text" type="text" name="username" placeholder="Digite seu nick" />
+                <input id="i-text" type="password" name="password" placeholder="Digite sua senha" />
+                <input id="i-entrar" type="submit" name="login" value="" />
+                <div id="esqueci"><a href="forget">Esqueceu senha?</a></div>
+            </form>
+        </section>
+    </nav>
+    <!-- FINAL MENU -->
+
+    <!-- BANNER -->
+    <section id="banner-index">
+        <figure id="banner-i">
+            <div id="registre-se" onclick="location.href='/register'"></div>
+        </figure>
+    </section>
+    <!-- FINAL BANNER -->
+
+    <!-- CONTEUDO -->
+    <section id="conteudo-texto">
+        <section id="tudo-texto">
+            <section id="titulo-texto">
+                <p>Quem somos?</p>
+            </section>
+            <section id="texto-conteudo">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisci ng elit. Nam maximus, eros quis faucibus aliqu et, eros diam facilisis libero, eget gravida elit ante eget odio. Donec consequat tortor neque, id mo lestie sapien ultricies ornare. In rutrum diam nec erat
+                    tincidunt pellentesque. Nulla libero erat, u trices id luctus eu, rutrum sed enim. Cras tincidu nt vestibulum metus at volutpat. Ut quis mat.
+                </p>
+            </section>
+        </section>
+
+        <section id="tudo-texto" style="margin-left:19px;">
+            <section id="titulo-texto">
+                <p>Quem somos?</p>
+            </section>
+            <section id="texto-conteudo">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisci ng elit. Nam maximus, eros quis faucibus aliqu et, eros diam facilisis libero, eget gravida elit ante eget odio. Donec consequat tortor neque, id mo lestie sapien ultricies ornare. In rutrum diam nec erat
+                    tincidunt pellentesque. Nulla libero erat, u trices id luctus eu, rutrum sed enim. Cras tincidu nt vestibulum metus at volutpat. Ut quis mat.
+                </p>
+            </section>
+        </section>
+
+        <section id="tudo-texto" style="float:right;">
+            <section id="titulo-texto">
+                <p>Quem somos?</p>
+            </section>
+            <section id="texto-conteudo">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisci ng elit. Nam maximus, eros quis faucibus aliqu et, eros diam facilisis libero, eget gravida elit ante eget odio. Donec consequat tortor neque, id mo lestie sapien ultricies ornare. In rutrum diam nec erat
+                    tincidunt pellentesque. Nulla libero erat, u trices id luctus eu, rutrum sed enim. Cras tincidu nt vestibulum metus at volutpat. Ut quis mat.
+                </p>
+            </section>
+        </section>
+    </section>
+    <!-- FINAL CONTEÚDO -->
+
+    <!-- RODAPE -->
+    <footer id="rodape">
+        <p>CMS Bobba/BobbaPixel © 2017 - Criado por <a href="#" target="_blank">Filippe</a> - Todos os direitos reservados.</p>
+    </footer>
+    <!-- FINAL RODAPE -->
+</body>
+
+</html>

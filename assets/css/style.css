@@ -1,0 +1,548 @@
+body{
+    margin:0;
+	padding:0;
+}
+
+/*/ TOPO /*/
+.error{
+	width:100%;
+	background:rgba(0, 0, 0, 0.5);
+	text-align:center;
+	padding:5px 0px 5px 0px;
+	font-family: 'Titillium Web', sans-serif;
+	text-shadow:1px 1px #000;
+	font-size:12px;
+	color:#FFF;
+	font-weight:bold;
+    margin:0 auto;	
+	position:absolute;
+	z-index:10000;
+}
+
+#topo{
+	width:100%;
+	height:190px;
+	background:url('../img/fundo-topo.png');
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+#nuvens{
+	width:100%;
+	height:190px;
+	background:url('../img/nuvens.png');
+    margin:0;	
+}
+
+#hotel-topo{
+	width:390px;
+	height:190px;
+    background-image: url("../img/geral.png");
+    background-repeat: no-repeat;
+    background-position: 0px -310px;
+	margin:0;
+	margin-top:-190px;
+    transition:1s;
+}
+
+#hotel-topo:hover{
+	opacity:0.6;
+	transition:1s;
+}
+
+#logo{
+	width:247px;
+	height:76px;
+	background:url('../img/logo.png');
+	margin:0 auto;
+	margin-top:-124px;
+	cursor:pointer;
+	transition:1s;
+}
+
+#logo:hover{
+	opacity:0.6;
+	transition:1s;
+}
+/*/ FINAL TOPO /*/
+
+/*/ BARRA /*/
+#barra{
+	width:100%;
+	height:84px;
+	background:url('../img/fundo-barra.png');
+	float:left;
+}
+
+#conteudo-barra{
+	width:1024px;
+	height:84px;
+	margin:0 auto;
+}
+
+#conteudo-barra-2{
+	width:312px;
+	height:84px;
+	margin:0 auto;
+}
+
+#frank-cabeca{
+	width:33px;
+	height:39px;
+    background-image: url("../img/geral.png");
+    background-repeat: no-repeat;
+    background-position: -73px -151px;
+	float:left;
+	margin-top:23px;
+	margin-left:10px;
+	transition:1s;
+}
+
+#frank-cabeca:hover{
+	opacity:0.6;
+	transition:1s;
+}
+
+#balao-online{
+	width:254px;
+	height:39px;
+    background-image: url("../img/geral.png");
+    background-repeat: no-repeat;
+    background-position: -344px -1px;
+	float:left;
+	margin-top:23px;
+	margin-left:10px;
+	-webkit-animation-name: balao;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+}
+
+#balao-online p{
+	margin:0;
+	width:250px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:14px;
+	color:#AEAEAE;
+	text-shadow:1px 1px #FFF;
+	text-align:center;
+	margin-top:8px;
+	margin-left:5px;
+}
+
+@-webkit-keyframes balao {
+	0% {
+		margin-left:10px;
+	}
+	50% {
+		margin-left:15px;
+	}
+	100% {
+		margin-left:10px;
+	}
+}
+
+
+#login-index{
+	float:right;
+	margin-right:10px;
+}
+
+input{
+   background:#F7F7F7;
+}
+
+#i-text{
+	width:194px;
+	height:49px;
+    background-image: url("../img/geral.png");
+    background-repeat: no-repeat;
+    background-position: -97px -3px;
+	border:0;
+	outline:none;
+	margin-top:17px;
+	margin-left:10px;
+	float:left;
+	padding:0px 0px 0px 10px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:14px;
+	color:#AEAEAE;
+	text-shadow:1px 1px #FFF;
+}
+
+#i-text:focus{
+	width:194px;
+	height:49px;
+    background-image: url("../img/geral.png");
+    background-repeat: no-repeat;
+    background-position: -97px -55px;
+	border:0;
+	outline:none;
+	margin-top:17px;
+	float:left;
+	padding:0px 0px 0px 10px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:14px;
+	color:#AEAEAE;
+	text-shadow:1px 1px #FFF;
+}
+
+#i-entrar{
+	width:94px;
+	height:48px;
+    background-image: url("../img/geral.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+	border:0;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:14px;
+	color:#FFF;
+	font-weight:bold;
+	text-shadow:2px 2px #3D7709;
+	outline:none;
+	margin-top:17px;
+	margin-left:10px;
+	float:left;
+	cursor:pointer;
+}
+
+#i-entrar:active{
+    background-image: url("../img/geral.png");
+    background-repeat: no-repeat;
+    background-position: 0px -48px;
+	margin-top:19px;
+}
+
+#i-text-2{
+	width:204px;
+	height:49px;
+    background-image: url("../img/geral.png");
+    background-repeat: no-repeat;
+    background-position: -97px -3px;
+	border:0;
+	outline:none;
+	margin-top:17px;
+	margin-left:10px;
+	padding:0px 0px 0px 10px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:14px;
+	color:#AEAEAE;
+	text-shadow:1px 1px #FFF;
+}
+
+#i-text-2:focus{
+	width:204px;
+	height:49px;
+    background-image: url("../img/geral.png");
+    background-repeat: no-repeat;
+    background-position: -97px -55px;
+	border:0;
+	outline:none;
+	margin-top:17px;
+	padding:0px 0px 0px 10px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:14px;
+	color:#AEAEAE;
+	text-shadow:1px 1px #FFF;
+}
+
+#i-text-2:-webkit-autofill,
+#i-text-2:-webkit-autofill:hover, 
+#i-text-2:-webkit-autofill:focus
+#i-text-2:-webkit-autofill{
+  border:0;
+  -webkit-text-fill-color:#757575;
+  border-radius:10px;
+  -webkit-box-shadow: 0 0 0px 1000px #FFF inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+#i-text-3{
+	margin-top:22px;
+	margin-left:18px;
+}
+
+#label1{
+	width:100px;
+	height:18px;
+	text-align:right;
+	float:left;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:14px;
+	color:#757575;
+	text-shadow:1px 1px #FFF;
+	margin-top:32px;
+}
+
+#label2{
+	width:322px;
+	height:18px;
+	text-align:left;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:14px;
+	color:#757575;
+	text-shadow:1px 1px #FFF;
+	margin-top:18px;
+	margin-left:5px;
+	position:absolute;
+}
+
+#label2 a{
+	text-decoration:none;
+	color:#1A8CFF;
+}
+
+#i-entrar-2{
+	width:94px;
+	height:48px;
+    background-image: url("../img/geral.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+	border:0;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:14px;
+	color:#FFF;
+	font-weight:bold;
+	text-shadow:2px 2px #3D7709;
+	outline:none;
+	margin-top:30px;
+	margin-left:109px;
+	cursor:pointer;
+}
+
+#i-entrar-2:active{
+    background-image: url("../img/geral.png");
+    background-repeat: no-repeat;
+    background-position: 0px -48px;
+	margin-top:32px;
+}
+
+#esqueci{
+	width:110px;
+	height:18px;
+	position:absolute;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:11px;
+	margin-top:65px;
+	margin-left:345px;
+}
+
+#esqueci a{
+	text-decoration:none;
+	color:#1A8CFF;
+}
+
+/*/ FINAL BARRA /*/
+
+/*/ BANNER INDEX /*/
+#banner-index{
+	width:950px;
+	height:260px;
+	margin:0 auto;
+}
+
+#banner-i{
+    width:950px;
+	height:260px;
+	background:url('../img/banner-index.png');
+	float:left;
+	margin:0;
+	margin-top:30px;
+}
+
+#registre-se{
+	width:164px;
+	height:208px;
+    background-image: url("../img/geral.png");
+    background-repeat: no-repeat;
+    background-position: -254px -104px;
+	float:right;
+	margin-top:30px;
+	margin-right:50px;
+	cursor:pointer;
+	-webkit-animation-name: registre;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;	
+}
+
+#registre-se:active{
+    background-image: url("../img/geral.png");
+    background-repeat: no-repeat;
+    background-position: -434px -67px;
+	margin-top:32px;
+}
+
+@-webkit-keyframes registre {
+	0% {
+		-webkit-transform:rotate(0deg);
+	}
+	50% {
+		-webkit-transform:rotate(10deg);
+	}
+	100% {
+		-webkit-transform:rotate(-10deg);
+	}
+}
+
+/*/ CONTEÚDO /*/
+#conteudo-texto{
+	width:950px;
+	height:auto;
+	margin:0 auto;
+}
+
+#tudo-texto{
+	float:left;
+	margin:0;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+#titulo-texto{
+	width:304px;
+	height:54px;
+	background:url('../img/titulo-box.png');
+	margin:0;
+	float:left;
+}
+
+#titulo-texto p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:22px;
+	color:#ADADAD;
+	text-shadow:1px 1px #FFF;
+	margin:0;
+	padding:10px;
+}
+
+#texto-conteudo{
+	width:302px;
+	height:auto;
+	background:#FFF;
+	margin-top:50px;
+	border:1px solid #DFDFDF;
+	border-radius:0px 0px 5px 5px;
+}
+
+#texto-conteudo p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:14px;
+	color:#8A8A8A;
+	margin:0;
+	padding:5px;
+}
+
+#conteudo-texto-2{
+	width:950px;
+	height:auto;
+	margin:0 auto;
+}
+
+#tudo-texto-2{
+	float:left;
+	margin:0;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+#titulo-texto-2{
+	width:950px;
+	height:54px;
+	background:url('../img/titulo-box-2.png');
+	margin:0;
+	float:left;
+}
+
+#figurino-avatar{
+	background:#F00;
+	width:520px;
+	height:100px;
+	margin:0 auto;
+	
+}
+
+#titulo-texto-2 p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:22px;
+	color:#ADADAD;
+	text-shadow:1px 1px #FFF;
+	margin:0;
+	padding:10px;
+}
+
+#texto-conteudo-2{
+	width:948px;
+	height:600px;
+	background:#F7F7F7;
+	margin-top:50px;
+	border:1px solid #DFDFDF;
+	border-radius:0px 0px 5px 5px;
+}
+
+#texto-conteudo-2 #i-text{
+	border:0;
+	
+}
+
+#texto-conteudo-2 p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:14px;
+	color:#8A8A8A;
+	margin:0;
+	padding:5px;
+}
+
+#label1{
+	width:100px;
+	height:18px;
+	text-align:right;
+	float:left;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:14px;
+	color:#757575;
+	text-shadow:1px 1px #FFF;
+	margin-top:32px;
+}
+
+#seu-visual{
+	width:500px;
+	height:500px;
+	position:relative;
+	margin-top:-612px;
+	margin-left:300px;
+	background:#F00;
+
+	
+}
+
+
+/*/ FINAL CONTEÚDO /*/
+
+/*/ RODAPE /*/
+#rodape{
+	width:100%;
+	height:50px;
+	background:url('../img/fundo-barra.png');
+	float:left;
+	margin-top:186px;
+}
+
+#rodape p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:14px;
+	color:#9A9A9A;
+	text-shadow:1px 1px #FFF;
+	text-align:center;
+	margin-top:14px;
+}
+
+#rodape a{
+	text-decoration:none;
+	color:#1BA9D8;
+	
+}
+/*/ FIM RODAPE /*/
